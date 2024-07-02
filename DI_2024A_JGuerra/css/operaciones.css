@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bea6a6;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #6e42a3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #450f2a;
+}
+
+#resultados {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el contenedor del arreglo */
+.arreglo-container {
+    display: flex; 
+    justify-content: center; 
+}
+
+
+.arreglo-horizontal ul {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+
+.arreglo-horizontal li {
+    margin-right: 10px;
+}

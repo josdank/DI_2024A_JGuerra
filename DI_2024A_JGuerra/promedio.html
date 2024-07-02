@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio de Asignaturas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/operaciones.css">
+    <script src="java/promedio.js"></script>
+    <script src="java/login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Promedio de Asignaturas</h2>
+        <center>la nota debe ser ingresada sobre 10</center>
+        <form id="promedioForm">
+            <div class="form-group">
+                <label for="ingles">Inglés</label>
+                <input type="number" class="form-control" id="ingles" required>
+            </div>
+            <div class="form-group">
+                <label for="matematica">Matemática</label>
+                <input type="number" class="form-control" id="matematica" required>
+            </div>
+            <div class="form-group">
+                <label for="lengua">Lengua</label>
+                <input type="number" class="form-control" id="lengua" required>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="calcularPromedio()">Calcular Promedio</button><br><br>
+        </form>
+        <div id="resultados" class="mt-3"></div>
+        <button type="submit" class="btn btn-primary" onclick="regresarPaginaAnterior()">volver</button>
+    </div>
+</body>
+</html>
+
